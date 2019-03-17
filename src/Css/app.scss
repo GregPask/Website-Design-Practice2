@@ -1,0 +1,67 @@
+@import "./navbar.scss";
+@import "./hero.scss";
+@import "./sidebar.scss";
+@import "./about.scss";
+@import "./parallax1.scss";
+@import "./menu.scss";
+@import "./contact.scss";
+@import "./footer.scss";
+
+
+body, html ,h1 ,h2 ,h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    transition: all 0.26s ease-in;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+h1,h2,h3 {
+    font-family: 'Merriweather', serif !important;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    color: #222;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    color: rgba(34, 34, 34, 0.787);
+    font-weight: 600;
+    text-shadow: 1px 1px 0.6px rgba(41, 41, 41, 0);
+    font-size: 1.08rem;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a,h1,h2,h3,p{
+    transition: all 0.3s ease-in-out;
+}
+
+
+#app {
+    position: relative;
+}
+@media(max-width: 768px){
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
